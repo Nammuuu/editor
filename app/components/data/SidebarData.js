@@ -88,6 +88,7 @@
 
 import { faHeading, faParagraph, faLink } from '@fortawesome/free-solid-svg-icons';
 
+
 export const textElements = [
   { tag: 'H1', icon: faHeading },
   { tag: 'H2', icon: faHeading },
