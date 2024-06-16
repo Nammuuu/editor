@@ -64,10 +64,10 @@ import {
    handleFontSizeChange, 
    handleFontWeightChange,
     // handleFontFamilyChange
-   } from './data/sidebarData';
+   } from './data/sidebardata';
 
 // import  {handleFontFamilyChange } from './data/SidebarData';
-import { handleFontFamilyChange } from './data/sidebarData';
+import { handleFontFamilyChange } from './data/sidebardata';
 
 
 import TextSettings from './data/slidebar/TextSettings';

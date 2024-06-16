@@ -273,7 +273,7 @@ import { BuilderContext } from '../context/BuilderContext';
 import {
   textElements,
   defaultFontSize,
-} from './data/sidebarData';
+} from './data/sidebardata';
 import ImageSection from './data/slidebar/ImageSection';
 import VideoSection from './data/slidebar/VideoSection';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
