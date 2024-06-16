@@ -59,7 +59,17 @@
 
 import React, { useContext } from 'react';
 import { BuilderContext } from '../context/BuilderContext';
-import { handleColorChange, handleFontSizeChange, handleFontWeightChange, handleFontFamilyChange } from './data/sidebarData';
+import { 
+  handleColorChange,
+   handleFontSizeChange, 
+   handleFontWeightChange,
+    // handleFontFamilyChange
+   } from './data/sidebarData';
+
+// import  {handleFontFamilyChange } from './data/SidebarData';
+import { handleFontFamilyChange } from './data/sidebarData';
+
+
 import TextSettings from './data/slidebar/TextSettings';
 import ElementList from './data/slidebar/ElementList';
 import ImageSettings from './data/slidebar/ImageSection';

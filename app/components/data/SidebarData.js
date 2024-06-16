@@ -123,9 +123,14 @@ export const handleFontWeightChange = (selectedElement, e, updateElement) => {
   if (selectedElement) updateElement({ ...selectedElement, fontWeight: e.target.value });
 };
 
+// export  const handleFontFamilyChange = (selectedElement, e, updateElement) => {
+//   if (selectedElement) updateElement({ ...selectedElement, fontFamily: e.target.value });
+// };
+
 export const handleFontFamilyChange = (selectedElement, e, updateElement) => {
   if (selectedElement) updateElement({ ...selectedElement, fontFamily: e.target.value });
 };
+
 
 export const removeElement = (elements, setElements, index) => {
   setElements(elements.filter((_, i) => i !== index));
